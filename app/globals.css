@@ -19,10 +19,84 @@
   }
 
   body {
-    background: #e9e9e9;
+    background: #ffffff;
   }
 
   a {
     text-decoration: underline;
   }
 }
+
+/* === Froala-style Display Defaults === */
+
+.fr-view h1,
+.fr-view h2,
+.fr-view h3,
+.fr-view h4,
+.fr-view h5,
+.fr-view h6 {
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1.25em;
+  margin-bottom: 0.75em;
+}
+
+.fr-view h1 { font-size: 2rem; }
+.fr-view h2 { font-size: 1.75rem; }
+.fr-view h3 { font-size: 1.5rem; }
+.fr-view h4 { font-size: 1.25rem; }
+.fr-view h5 { font-size: 1.125rem; }
+.fr-view h6 { font-size: 1rem; }
+
+.fr-view p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+
+.fr-view strong {
+  font-weight: bold;
+}
+
+.fr-view em {
+  font-style: italic;
+}
+
+.fr-view blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  color: #666;
+  margin: 1.5em 0;
+}
+
+.fr-view ul,
+.fr-view ol {
+  padding-left: 2em;
+  margin: 1em 0;
+}
+
+.fr-view li {
+  margin-bottom: 0.5em;
+}
+
+.fr-view a {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+.fr-view img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}
+
+.fr-view [style*="text-align: center"] {
+  text-align: center;
+}
+.fr-view [style*="text-align: right"] {
+  text-align: right;
+}
+.fr-view [style*="text-align: left"] {
+  text-align: left;
+}
+
